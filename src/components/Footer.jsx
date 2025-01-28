@@ -9,24 +9,16 @@ function Footer() {
           <h3 className="text-lg font-bold mb-2">Quick Links</h3>
           <ul className="space-y-2">
             <li>
-              <a href="#home" className="text-sm hover:text-gray-400 transition">
-                Home
-              </a>
+              <a href="#home" className="text-sm hover:text-gray-400 transition">Home</a>
             </li>
             <li>
-              <a href="#about" className="text-sm hover:text-gray-400 transition">
-                About Us
-              </a>
+              <a href="#about" className="text-sm hover:text-gray-400 transition"> About Us</a>
             </li>
             <li>
-              <a href="#services" className="text-sm hover:text-gray-400 transition">
-                Services
-              </a>
+              <a href="#services" className="text-sm hover:text-gray-400 transition"> Services</a>
             </li>
             <li>
-              <a href="#contact" className="text-sm hover:text-gray-400 transition">
-                Contact
-              </a>
+              <a href="#contact" className="text-sm hover:text-gray-400 transition"> Contact</a>
             </li>
           </ul>
         </div>
@@ -72,7 +64,7 @@ function Footer() {
 
       <div className="border-t border-gray-600 mt-6 pt-4 text-center">
         <p className="text-sm">
-          &copy; {new Date().getFullYear()} Your Website Name. All Rights Reserved.
+          &copy; {new Date().getFullYear()} www.omkar.sahane.com. All Rights Reserved.
         </p>
       </div>
     </div>
