@@ -1,10 +1,10 @@
-import React from "react"; // Ensure React is imported
+import React from "react"; 
 
 function Footer() {
   return (
     <footer className="bg-gray-800 text-white py-4 text-center fixed w-full bottom-0 z-10">
       <div className="container mx-auto px-4 flex flex-col items-center">
-        {/* Footer Navigation Links */}
+        
         <div className="flex flex-wrap justify-center space-x-4 mb-2">
           <a
             href="#home"
@@ -32,7 +32,7 @@ function Footer() {
           </a>
         </div>
 
-        {/* Footer Text */}
+
         <p className="text-xs sm:text-sm">
           &copy; {new Date().getFullYear()} Your Website Name. All Rights Reserved.
         </p>

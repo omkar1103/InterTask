@@ -6,7 +6,6 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen">
     <Nav />
-    {/* Main content with padding to avoid footer overlap */}
     <main className="flex-grow pb-16">
       <section
         id="home"
@@ -36,7 +35,6 @@ function App() {
         <h1 className="text-4xl font-bold">Welcome to the Contact Us</h1>
       </section>
     </main>
-    {/* Fixed footer */}
     <Footer />
   </div>
 );
