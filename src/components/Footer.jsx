@@ -34,7 +34,7 @@ function Footer() {
 
 
         <p className="text-xs sm:text-sm">
-          &copy; {new Date().getFullYear()} Your Website Name. All Rights Reserved.
+          &copy; {new Date().getFullYear()} www.Brand.com .All Rights Reserved.
         </p>
       </div>
     </footer>
