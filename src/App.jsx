@@ -9,8 +9,8 @@ function App() {
   const scrollToAbout = () => {
     const aboutSection = document.getElementById("about");
     aboutSection.scrollIntoView({
-      behavior: 'smooth', // Smooth scroll behavior
-      block: 'start',     // Align the section at the top of the viewport
+      behavior: 'smooth', 
+      block: 'start',     
     });
   };
 

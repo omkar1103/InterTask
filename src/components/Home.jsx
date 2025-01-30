@@ -11,7 +11,6 @@ function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
       >
-        {/* Text Section with Smooth Animation */}
         <motion.div 
           className="md:w-1/2 text-center md:text-left p-4"
           initial={{ opacity: 0, x: -50 }}
@@ -29,7 +28,7 @@ function Home() {
             <motion.a 
               href="#services"
               className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-700 transition duration-300"
-              whileHover={{ scale: 1.05 }}
+              whileHover={{ scale: 1.25 }}
               whileTap={{ scale: 0.95 }}
             >
               Services
@@ -37,7 +36,7 @@ function Home() {
             <motion.a 
               href="#contact"
               className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-700 transition duration-300"
-              whileHover={{ scale: 1.05 }}
+              whileHover={{ scale: 1.25 }}
               whileTap={{ scale: 0.95 }}
             >
               Contact Us
@@ -47,9 +46,9 @@ function Home() {
 
         <div className="md:w-1/2 flex justify-center mt-8 md:mt-0">
           <img 
-            src="" 
+            src={homeImage} 
             alt="Home Illustration" 
-            className="w-full max-w-md md:max-w-lg rounded-lg shadow-lg"
+             className="h-100 w-full md:max-w-lg rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"
           />
         </div>
 

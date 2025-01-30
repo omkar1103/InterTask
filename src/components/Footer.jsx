@@ -34,26 +34,17 @@ function Footer() {
         <div className="mb-6 w-full sm:w-1/3">
           <h3 className="text-lg font-bold mb-2">Follow Us</h3>
           <div className="flex space-x-4">
-            <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
+            <a href="https://facebook.com"  target="_blank"  rel="noopener noreferrer"
               className="hover:text-gray-400 transition"
             >
               <i className="fab fa-facebook-f"></i> Facebook
             </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
+            <a href="https://twitter.com"  target="_blank"  rel="noopener noreferrer"
               className="hover:text-gray-400 transition"
             >
               <i className="fab fa-twitter"></i> Twitter
             </a>
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
+            <a href="https://linkedin.com"  target="_blank"   rel="noopener noreferrer"
               className="hover:text-gray-400 transition"
             >
               <i className="fab fa-linkedin-in"></i> LinkedIn
